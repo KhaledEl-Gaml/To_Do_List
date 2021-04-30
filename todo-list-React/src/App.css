@@ -1,0 +1,45 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+body{
+  background-color: #ffffff;
+  /* background-image: url("./home1.jpg"); */
+
+}
+
+.App{
+  background-color: #e0e0e0;
+  min-height: 500px;
+  width:400px;
+  margin: 80px auto;
+}
+
+#to-do-form input{
+  background-color: #f0f0f0;
+  border: 0;
+  width: 200px;
+  height: 40px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 17px;
+}
+
+
+
+#to-do-form button{
+  background-color: #b8aeae;
+  color: #ffffff;
+  border: 0;
+  width: 100px;
+  height: 40px;
+  margin: 2px;
+  font-weight: bolder;
+
+}
+
+#to-do-form input:focus ,#to-do-form button:focus{
+  outline: none;
+} 
+
+.App p span{
+  color: red;
+
+}
